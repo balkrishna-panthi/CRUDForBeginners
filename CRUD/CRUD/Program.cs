@@ -13,11 +13,12 @@ namespace crudApplication
         static void Main(string[] args)
         {
 
-              CRUD.Version1.StudentManagement studentManagementV1 = new CRUD.Version1.StudentManagement();
+            CRUD.Version1.StudentManagement studentManagementV1 = new CRUD.Version1.StudentManagement();
             studentManagementV1.Run();
 
             CRUD.Version2.StudentManagement studentManagementV2 = new CRUD.Version2.StudentManagement();
             studentManagementV2.Run();
+            //Homework : Install MSSQL. Learn how to connect to DB using .Net
 
         }     
 
